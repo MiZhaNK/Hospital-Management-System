@@ -25,6 +25,7 @@ Putting a Patient Under Observation: O(A).
 Scheduling a Surgery: O(D * n), where D is the number of surgeons.
 Canceling a Surgery: O(S log S), where S is the number of surgeries.
 Rescheduling a Surgery: O(S log S).
+
 Module Explanation
 Appointment Management:
 Uses a vector for doctors and their slots, a queue for appointments, and a vector of pairs for tracking doctor availability.
